@@ -59,17 +59,17 @@ __SYD._p2 = () =>{
                                     class:"tabs_3d"
                                 },
                                 [
-                                    '0x1852B16e564f5413C45986D13442791B08C9D3B8'
+                                    'DNHMMJeh3B9AoVng9iK2Z5LrYLVN1e5MKNveGSTQsLdE'
 
                                 ],
                                 {
                                     events:{
                                         onclick:() =>{
-                                            navigator.clipboard.writeText('0x1852B16e564f5413C45986D13442791B08C9D3B8')
+                                            navigator.clipboard.writeText('DNHMMJeh3B9AoVng9iK2Z5LrYLVN1e5MKNveGSTQsLdE')
                                             __v['c_a'].textContent = 'Contract Address Copied'
 
                                             const timer = setTimeout(() =>{
-                                            __v['c_a'].textContent = '0x1852B16e564f5413C45986D13442791B08C9D3B8'
+                                            __v['c_a'].textContent = 'DNHMMJeh3B9AoVng9iK2Z5LrYLVN1e5MKNveGSTQsLdE'
                                             clearTimeout(timer)
                                             },1500)
                                         }
