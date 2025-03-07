@@ -34,7 +34,7 @@ window.onresize = () =>{
     manage_mediaQuery(window.innerWidth)
 }
 
-const manage_mediaQuery = (width) =>{
+export const manage_mediaQuery = (width) =>{
     for(let i = 0; i < Object.keys(MEDIA_QUERY).length; i++)
     {
         const unitInfo = MEDIA_QUERY[Object.keys(MEDIA_QUERY)[i]].query;
