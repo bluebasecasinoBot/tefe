@@ -1,4 +1,4 @@
-import {__c,__SYD,__sS,__sC,__m,__g,__p, __u, __v} from './sydneyLib/sydneyDom.js';
+import {__c,__SYD,__sS,__sC,__m,__g,__p, __u, __v , manage_mediaQuery} from './sydneyLib/sydneyDom.js';
 
 import './_body_p1.js';
 import './_body_p2.js';
@@ -237,3 +237,7 @@ __SYD.mobileMenu = () =>{
 }
 
 __m(__SYD.container())
+
+window.addEventListener("DOMContentLoaded" , e =>{
+    manage_mediaQuery(window.innerWidth)
+})
