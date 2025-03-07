@@ -55,7 +55,7 @@ __SYD._p2 = () =>{
                             __c(
                                 'div',
                                 {
-                                    style:`padding:50px 10px;width:100%;font-family:sticker;font-size:${__p(['_p2','_flex'],'row') === 'row' ? '20px' : '13px'};font-weight:900;text-align:center;cursor:pointer;color:#171717;border-radius:30px;background:#39FF14`,
+                                    style:`padding:50px 10px;width:100%;font-family:sticker;font-size:${__p(['_p2','_flex'],'row') === 'row' ? '18px' : '10px'};font-weight:900;text-align:center;cursor:pointer;color:#171717;border-radius:30px;background:#39FF14`,
                                     class:"tabs_3d"
                                 },
                                 [
